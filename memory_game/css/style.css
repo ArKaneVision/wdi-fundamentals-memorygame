@@ -1,33 +1,41 @@
 body {
-text-align: center;
-margin: 0;
+	text-align: center;
+	margin: 0;
 }
 
 h1 {
-font-family: "Raleway", sans-serif;
-letter-spacing: 1px;
-font-size: 45px;
-font-weight: 400;
-margin: 0;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 1px;
+	font-size: 45px;
+	font-weight: 400;
+	margin: 0;
 }
 
 h2 {
-font-family: "Raleway";
-color: #0D2C40;
-letter-spacing: 1px;
-font-weight: 600;
-font-size: 20px;
+	font-family: "Raleway";
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+h3 {
+	font-family: "Raleway";
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
 }
 
 a {
-font-family: "Raleway";
-letter-spacing: 1px;
-font-weight: 600;
-font-size: 18px;
-text-decoration: none;
-margin: 0 20px;
-color: #FFFFFF;
-border-bottom: 2px solid transparent;
+	font-family: "Raleway";
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0 20px;
+	color: #FFFFFF;
+	border-bottom: 2px solid transparent;
 }
 
 a:hover {
@@ -35,25 +43,34 @@ a:hover {
 }
 
 p {
-font-family: "Droid Serif", serif;
-line-height: 26px;
-font-size: 18px;
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
+
+li {
+	list-style: none;
+	font-family: "Raleway";
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
 }
 
 h1, h2, a {
-text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 header {
-background-color: #F15B31;
-color: #FFFFFF;
-padding: 30px 20px;
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
 }
 
 nav {
-background-color: #00A6B3;
-color: #FFFFFF;
-padding: 20px;
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px;
 }
 
 main {
@@ -61,7 +78,20 @@ main {
 	margin: 35px auto;
 }
 
+button {
+	cursor: pointer;
+	background-color: #F15B31;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 10px;
+	margin: 20px 20px 100px 20px;
+	border-radius: 4px;
+}
+
 img {
+	cursor: pointer;
 	margin: 40px 8px 0;
 }
 
@@ -74,6 +104,8 @@ footer {
 	letter-spacing: .08em;
 	font-weight: 500;
 }
+
+
 .copyright {
 	float: left;
 }
@@ -94,4 +126,12 @@ footer {
 .name {
 	color: #F15B31;
 	font-weight: 700;
+}
+
+.Score {
+	font-family: "Raleway";
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
 }
